@@ -6,15 +6,15 @@ You spend too much time typing ``python manage.py``.
 Usage
 -----
 
-Django shortcuts installs a ``django`` binary that proxies
+This fork of django-shortcuts installs a ``dj`` binary that proxies
 Django's ``manage.py`` and ``django-admin.py`` scripts.
 
 ::
 
-    $ django <command or shortcut>
+    $ dj <command or shortcut>
 
     $ cd any/project/subdirectory
-    $ django <command or shortcut>
+    $ dj <command or shortcut>
 
 Requirements
 ------------
@@ -69,4 +69,4 @@ Installation
 
 ::
 
-    $ pip install django-shortcuts
+    $ pip install git+https://github.com/safdariqbal/django-shortcuts
